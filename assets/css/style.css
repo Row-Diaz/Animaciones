@@ -277,7 +277,7 @@ div.card8:hover{
 footer {
   background-color:#E10700;
   grid-area: footer;
-  color:black;
+  color:white;
   height: 80px;
   justify-items: center;
   padding: 10px;
@@ -351,7 +351,7 @@ footer img {
     display: flex;
     flex-direction: column;
     background-color:#E10700;
-    color:black;
+    color:white;
     align-content: center;
     height: auto;
     justify-content: flex-end;
