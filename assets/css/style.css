@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-.navbar-ppal {
-  background-color: rgb(4, 67, 150);
+/* .navbar-ppal {
+  background-color:#E10700;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -13,6 +13,11 @@
   grid-area: navbar;
   color: aliceblue;
   height: 100px;
+} */
+
+.navbar-expand-lg{
+
+  background-color: #E10700;
 }
 
 .navbar-ppal img {
@@ -28,15 +33,17 @@ a.nav-link {
   color: antiquewhite;
 }
 
+
+
 span.navbar-toggler-icon {
-  background-color: rgb(4, 67, 150);
+  background-color:#E10700;
   display: flex;
   justify-items: end;
   align-items: end;
 }
 
 /* FILTRO DE BUSQUEDA */
-.container {
+/* .container {
   display: flex;
   grid-area: filtro;
   flex-direction: column;
@@ -44,7 +51,7 @@ span.navbar-toggler-icon {
   background-color: grey;
   color: antiquewhite;
   padding: 20px;
-}
+} */
 
 /* SECCION DEL MAIN */
 
@@ -209,12 +216,68 @@ div.card6:hover{
   background-repeat: no-repeat;
 }
 
+
+/* HASS */
+
+div.card7 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/logo-hass-2.jpg);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card7:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/coche-hass.jpg);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+div.card8 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/LOGO-ASTONMARTIN.png);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card8:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/COCHE-ASTONMARTIN.png);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
 /* FOOTER */
 
 footer {
-  background-color: rgb(4, 67, 150);
+  background-color:#E10700;
   grid-area: footer;
-  color: antiquewhite;
+  color:black;
   height: 80px;
   justify-items: center;
   padding: 10px;
@@ -232,14 +295,14 @@ footer img {
 
 @media (min-width: 576px) {
   .navbar-ppal {
-    background-color: rgb(4, 67, 150);
+    background-color:#E10700;
     display: flex;
     flex-direction: column;
     align-content: start;
     justify-content: start;
     height: 100%;
     grid-area: navbar;
-    color: aliceblue;
+    color:black;
     width: 100%;
   }
 
@@ -249,8 +312,14 @@ footer img {
   }
 
   .navbar-ppal img {
-    height: 30px;
-    width: 30px;
+    height: 70px;
+    width: 70px;
+  }
+
+  img.f1icon{
+
+    width: 100px;
+    height: 100px;
   }
 
   #navbarNav {
@@ -266,7 +335,7 @@ footer img {
     flex-direction: column;
   }
 
-  .container {
+  /* .container {
     display: flex;
     align-items: center;
     align-content: start;
@@ -276,13 +345,13 @@ footer img {
     color: antiquewhite;
     padding: 20px;
     margin-top: 0%;
-  }
+  } */
 
     footer {
     display: flex;
     flex-direction: column;
-    background-color: rgb(4, 67, 150);
-    color: antiquewhite;
+    background-color:#E10700;
+    color:black;
     align-content: center;
     height: auto;
     justify-content: flex-end;
