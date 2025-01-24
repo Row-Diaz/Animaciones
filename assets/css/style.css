@@ -53,6 +53,8 @@ span.navbar-toggler-icon {
   padding: 20px;
 } */
 
+
+
 /* SECCION DEL MAIN */
 
 main {
@@ -61,6 +63,8 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  background-color:rgb(196, 192, 192);
+  
 }
 
 h5.card-title{
@@ -304,6 +308,27 @@ footer img {
     grid-area: navbar;
     color:black;
     width: 100%;
+    padding: 0px;
+    
+  }
+
+  main{
+    height: 100vh;
+   
+  }
+
+  .card1{
+    margin-top: 2%;
+  }
+
+  .card2{
+    margin-top: 2%;
+  }
+  .card3{
+    margin-top: 2%;
+  }
+  .card4{
+    margin-top: 2%;
   }
 
   .container-fluid {
@@ -365,7 +390,7 @@ footer img {
     display: grid;
     grid-template-columns: 15% 1fr;
     grid-template-areas:
-      "filtro filtro "
+      
       "navbar main "
       "navbar main "
       "footer main "
