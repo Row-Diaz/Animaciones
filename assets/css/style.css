@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-ppal {
+  background-color: rgb(4, 67, 150);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  grid-area: navbar;
+  color: aliceblue;
+  height: 100px;
+}
+
+.navbar-ppal img {
+  height: 30px;
+  width: 30px;
+}
+
+a.navbar-brand {
+  color: antiquewhite;
+}
+
+a.nav-link {
+  color: antiquewhite;
+}
+
+span.navbar-toggler-icon {
+  background-color: rgb(4, 67, 150);
+  display: flex;
+  justify-items: end;
+  align-items: end;
+}
+
+/* FILTRO DE BUSQUEDA */
+.container {
+  display: flex;
+  grid-area: filtro;
+  flex-direction: column;
+  text-align: center;
+  background-color: grey;
+  color: antiquewhite;
+  padding: 20px;
+}
+
+/* SECCION DEL MAIN */
+
+main {
+  display: flex;
+  grid-area: main;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+h5.card-title{
+  color:antiquewhite;
+}
+/* FERRARI */
+div.card1 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  background-image:url(../img/logo-Ferrari.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+  transition: background-image 0.2s ease ;
+}
+
+div.card1:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/ferrari.jpg);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+/* MERCEDES */
+div.card2 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+  background-image:url(../img/logo2-mercedes.jpeg);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card2:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/coche-mercedes.jpg);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+ /* MCLAREN */
+div.card3 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/logo-mclaren.jpg);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card3:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/Mclaren.jpg);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+/* WILLIAMS */
+
+div.card4 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/logo-williams.jpg);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card4:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/coche-williams.webp);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+/* REDBULL */
+
+div.card5 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/LOGO2.REDBULL.jpg);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card5:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/COCHE-REDBULL.png);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+/* ALPINE */
+
+div.card6 {
+  display: flex;
+  height: 280px;
+  width:250px ;
+  flex-direction: column;
+  align-items: center;
+  align-content: end;
+  object-fit: contain;
+  background-image:url(../img/LOGO-ALPINE.png);
+  background-repeat: no-repeat;
+  background-size:250px 300px;
+  transition: background-image 0.2s ease ;
+}
+
+div.card6:hover{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* object-fit:contain; */
+  background-image:url(../img/COCHE-ALPINE.jpg);
+  background-size:  250px 300px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(4, 67, 150);
+  grid-area: footer;
+  color: antiquewhite;
+  height: 80px;
+  justify-items: center;
+  padding: 10px;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+}
+
+
+
+/* VERSION DESKTOP */
+
+
+@media (min-width: 576px) {
+  .navbar-ppal {
+    background-color: rgb(4, 67, 150);
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: start;
+    height: 100%;
+    grid-area: navbar;
+    color: aliceblue;
+    width: 100%;
+  }
+
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-ppal img {
+    height: 30px;
+    width: 30px;
+  }
+
+  #navbarNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 193px;
+  }
+
+  #navbarNav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    align-content: start;
+    grid-area: filtro;
+    text-align: center;
+    background-color: grey;
+    color: antiquewhite;
+    padding: 20px;
+    margin-top: 0%;
+  }
+
+    footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 67, 150);
+    color: antiquewhite;
+    align-content: center;
+    height: auto;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 10px;
+    font-size: larger;
+  }
+
+ 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-template-areas:
+      "filtro filtro "
+      "navbar main "
+      "navbar main "
+      "footer main "
+      "footer main";
+  }
+}
