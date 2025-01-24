@@ -69,7 +69,7 @@ div.card1 {
   object-fit: contain;
   background-image:url(../img/logo-Ferrari.jpg);
   background-repeat: no-repeat;
-  background-size:100%;
+  background-size:250px 300px;
   transition: background-image 0.2s ease ;
 }
 
@@ -208,16 +208,6 @@ div.card6:hover{
   background-size:  250px 300px;
   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* FOOTER */
 
