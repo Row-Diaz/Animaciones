@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-/* .navbar-ppal {
-  background-color:#E10700;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  grid-area: navbar;
-  color: aliceblue;
-  height: 100px;
-} */
-
 .navbar-expand-lg{
 
   background-color: #E10700;
@@ -41,18 +30,6 @@ span.navbar-toggler-icon {
   justify-items: end;
   align-items: end;
 }
-
-/* FILTRO DE BUSQUEDA */
-/* .container {
-  display: flex;
-  grid-area: filtro;
-  flex-direction: column;
-  text-align: center;
-  background-color: grey;
-  color: antiquewhite;
-  padding: 20px;
-} */
-
 
 
 /* SECCION DEL MAIN */
@@ -88,7 +65,6 @@ div.card1:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/ferrari.jpg);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -111,7 +87,6 @@ div.card2:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/coche-mercedes.jpg);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -136,7 +111,6 @@ div.card3:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/Mclaren.jpg);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -162,7 +136,6 @@ div.card4:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/coche-williams.webp);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -188,7 +161,6 @@ div.card5:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/COCHE-REDBULL.png);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -214,7 +186,6 @@ div.card6:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/COCHE-ALPINE.jpg);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -241,7 +212,6 @@ div.card7:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/coche-hass.jpg);
   background-size:  250px 300px;
   background-repeat: no-repeat;
@@ -265,15 +235,10 @@ div.card8:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* object-fit:contain; */
   background-image:url(../img/COCHE-ASTONMARTIN.png);
   background-size:  250px 300px;
   background-repeat: no-repeat;
 }
-
-
-
-
 
 
 /* FOOTER */
@@ -314,8 +279,7 @@ footer img {
 
   main{
     height: 100vh;
-   
-  }
+    }
 
   .card1{
     margin-top: 2%;
@@ -359,18 +323,6 @@ footer img {
     display: flex;
     flex-direction: column;
   }
-
-  /* .container {
-    display: flex;
-    align-items: center;
-    align-content: start;
-    grid-area: filtro;
-    text-align: center;
-    background-color: grey;
-    color: antiquewhite;
-    padding: 20px;
-    margin-top: 0%;
-  } */
 
     footer {
     display: flex;
