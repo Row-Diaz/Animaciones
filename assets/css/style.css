@@ -150,6 +150,7 @@ div.card5 {
   flex-direction: column;
   align-items: center;
   align-content: end;
+  margin-top: 25px;
   object-fit: contain;
   background-image:url(../img/LOGO2.REDBULL.jpg);
   background-repeat: no-repeat;
